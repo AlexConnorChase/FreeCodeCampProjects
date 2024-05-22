@@ -1,0 +1,1 @@
+This section covers basic html and css, creating a basic webpage for a photo app, using css to stylize documents and create image assets, and stylizing online forms, the final project of this section is to develop on online survey form.
