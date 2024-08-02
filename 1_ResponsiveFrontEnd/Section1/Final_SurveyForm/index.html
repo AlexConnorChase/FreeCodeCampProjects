@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css" />
+        <title>Game Survey</title>
+    </head>
+    <body>
+      <!-- Title and Description -->
+        <h1 id="title">Favored Game Mechanics</h1>
+        <p id="description">Tell us about your favorite games and what makes them fun to you!</p>
+
+      <!-- Begin Survey Form -->
+        <form id="survey-form" method="post">
+          <!-- Fielset about general -->
+          <fieldset>
+            <legend>General</legend>
+            <label for="hours" id="number-label">Hours Played Per Week: <input id="number" name="hoursplayed" type="number" min="0" max="112" placeholder="0 to 112" required /></label>
+
+            <label for="casualplay">How dedicated are you to the games you play?<input type="radio" id="casualplay" name="playdedication" class="inline" value="casualplay" checked /> Casual</label>
+            <label for="regularplay"><input type="radio" id="regularplay" name="playdedication" class="inline" value="regularplay"/> Regular</label>
+            <label for="tryhardplay"><input type="radio" id="tryhardplay" name="playdedication" class="inline" value="tryhardplay" /> Try-Hard</label>
+          </fieldset>
+          <!-- Fieldset for mechanics -->
+          <fieldset>
+            <legend>Mechanics</legend>
+            <p>Select the Themes you prefer to see in Games.</p>
+            <label for="Open-World">
+              <input class="inline" id="favoreddesign" type="checkbox" value="1" name="terms-and-conditions" /> Open-World
+            </label>
+            <label for="RPG">
+              <input class="inline" id="favoreddesign" type="checkbox" value="2" name="terms-and-conditions" /> RPG
+            </label>
+            <label for="Rouge-Like">
+              <input class="inline" id="favoreddesign" type="checkbox" value="3" name="terms-and-conditions" /> Rogue-Like
+            </label>
+            <label for="Team-Building">
+              <input class="inline" id="favoreddesign" type="checkbox" value="4" name="terms-and-conditions" /> Team-Building
+            </label>
+          </fieldset>
+          <!-- Fieldset for story -->
+          <fieldset>
+            <legend>Story-Telling</legend>
+            <label for="maturityrating">Select the content rating you play most often:
+              <select id="dropdown" name="rating">
+            <option value="">(select one)</option>
+            <option value="1">Everyone</option>
+            <option value="2">Everyone 10+</option>
+            <option value="3">Teen</option>
+            <option value="4">Mature</option>
+            <option value="5">Explicit</option>
+            </select>
+            </label>
+          </fieldset>
+          <!-- Fieldset for finances -->
+          <fieldset>
+            <legend>Financial</legend>
+            <label for="finances">Describe what financial schemas you would tolerate in games (pay once, subcription, microtransactions, etc.)
+              <textarea id="finances" name="finances" rows="3" cols="30" placeholder="Microtransactions are problematic..."></textarea>
+            </label>
+          </fieldset>
+          <!-- Fieldset for Name/Email -->
+          <fieldset>
+            <legend>Contact</legend>
+            <label for="name" id="name-label">Name: <input id="name" name="first-name" type="text" placeholder="John Test" required /></label>
+          <label for="email" id="email-label">Email: <input id="email" name="email" type="email" placeholder="someone@somewhere.com" required /></label>
+          </fieldset>
+          <!-- Submit Button -->
+          <input id="submit" type="submit" value="Submit" />
+        </form>
+    </body>
+</html>
