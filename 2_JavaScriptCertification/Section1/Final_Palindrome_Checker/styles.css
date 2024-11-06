@@ -1,0 +1,12 @@
+body{
+  background:radial-gradient(#1d3452,#38567d, #88a1c2);
+  color: gold;
+  display:flex;
+  justify-content:center;
+  text-align:center;
+}
+
+#result-div{
+  padding-top:50px;
+}
+
