@@ -1,0 +1,40 @@
+body{
+  background-color: #6D719D;
+}
+
+main{
+  width:100%;
+  height:100%;
+  text-align:center;
+}
+
+h1,h3{
+  color: #C7C8DA;
+}
+
+#functional{
+  background-color:#2F336B;
+  border-radius:10vh;
+  padding:5vh;
+}
+
+#number{
+  background-color:#E2CD92;
+  color:#2F336B;
+  border:3px solid  #BD925D;
+  font-size:3vh;
+  width:35vh;
+}
+
+#convert-btn{
+  background-color: #494F83;
+  color: #C7C8DA;
+  font-size:3vh;
+  padding:1vh;
+}
+
+#output{
+  color:#BD925D;
+  font-size:7vh;
+  font-weight:bold;
+}
