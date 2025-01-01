@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+    <div id="page-header">
+      <h1>WebDex</h1>
+      <h3>By Alex Chase</h3>
+    </div>
+    <div id="dex-space">
+      <div id="search-div">
+        <input id="search-input" placeholder="Name/ID" required/>
+        <button id="search-button">Search Dex</button>
+      </div>
+      <div id="show-case">
+        <div id="show-case-header">
+          <p id="pokemon-name"></p>
+          <p id="pokemon-id"></p>
+        </div>
+        <div id="show-case-image">
+          
+        </div>
+        <div id="show-case-footer">
+          <p id="weight"></p>
+          <p id="height"></p>
+          <p id="types"></p>
+        </div>
+      </div>
+      <div id="stats-case">
+        <table>
+          <th>Base Stats</th>
+          <tr>
+            <td>HP:</td>
+            <td id="hp"></td>
+          </tr>
+          <tr>
+            <td>Atk:</td>
+            <td id="attack"></td>
+          </tr>
+          <tr>
+            <td>Def:</td>
+            <td id="defense"></td>
+          </tr>
+          <tr>
+            <td>Sp. Atk:</td>
+            <td id="special-attack"></td>
+          </tr>
+          <tr>
+            <td>Sp. Def:</td>
+            <td id="special-defense"></td>
+          </tr>
+          <tr>
+            <td>Speed:</td>
+            <td id="speed"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    </main>
+  </body>
+</html>
