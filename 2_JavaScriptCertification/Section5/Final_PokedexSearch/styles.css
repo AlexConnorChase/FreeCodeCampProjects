@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width:100%;
+  height:100%;
+  background-color:gray;
+  
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-header{
+  width:100%;
+}
+
+#dex-space{
+  height:80%;
+  width:65%;
+  background-color:#CF4035;
+  border: solid 2px white;
+}
+
+#search-div{
+  width:100%;
+}
+
+#show-case{
+  width:95%;
+  background-color:#2596be;
+  border: solid 2px black;
+}
+
+#show-case-header #show-case-footer{
+  width:100%;
+  background-color:black;
+}
